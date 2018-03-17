@@ -1,0 +1,7 @@
+n=int(input("Enter the number"))
+p=1
+while (n>0):
+  a=n%10
+  p=p*a
+  n=n//10
+print('Product',p)
