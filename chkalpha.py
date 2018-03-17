@@ -1,4 +1,4 @@
-n=input("enter string")
+n=input("Enter a string")
 a=[]
 for i in n:
   if(i.isdigit()):
