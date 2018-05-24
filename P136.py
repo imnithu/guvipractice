@@ -3,7 +3,7 @@ a=[]
 for i in range(0,b):
   c=(input("Enter the number"))
   a.append(c)
-k=input("Enter the Number to be Checked")
+k=input("Enter any Number to be Checked")
 if k in a:
   print("yes", a.count(k))
 else:
