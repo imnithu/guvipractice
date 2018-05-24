@@ -1,0 +1,8 @@
+a=input('Enter a string')
+c=(a[::-1]) 
+b=c.replace('a','')
+d=b.replace('e','')
+e=d.replace('i','')
+f=e.replace('o','')
+g=f.replace('u','')
+print(b and d and e and f and g)
